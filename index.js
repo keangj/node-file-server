@@ -31,4 +31,5 @@ app.get('/preview/:id', cors(), (req, res, next) => {
     })
 })
 let port = process.env.PORT || 3000
+console.log(port);
 app.listen(port)
